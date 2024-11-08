@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Store</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <div class="heady">
+    <div class="header">
+      <div class="header-logo">
+        <a href="/index.html"><img src="./img/logo.png.webp" style="margin-top: 24px" /></a>
+        <div class="">
+          <img onclick="openNav()" class="burger" width="40px"
+            src="./img/menu_35dp_000000_FILL0_wght400_GRAD0_opsz40.png" />
+          <div class="nav alaki mena ">
+            <ul id="burger" class="ol"></ul>
+          </div>
+        </div>
+      </div>
+      <ul class="ul" id="ul" style="margin-top: 20px; margin-left: 10%">
+        <li>
+          <a class="under" href="/index.html">HOME</a>
+        </li>
+      </ul>
+      <div class="icons buy-tag">
+        <img src="./img/favorite_35dp_000000_FILL0_wght400_GRAD0_opsz40.png" style="width: 10%" />
+        <img src="./img/shopping_cart_35dp_000000_FILL0_wght400_GRAD0_opsz40.png" style="width: 10%" />
+      </div>
+    </div>
+  </div>
+
+  <div class="slider-container">
+    <div class="slider">
+      <div class="slide">
+        <img src="./img/boutique-6796399_1280.jpg" alt="تصویر 1" />
+      </div>
+      <div class="slide">
+        <img src="./img/store-5619201_1280.jpg" alt="تصویر 2" />
+      </div>
+    </div>
+    <button class="button-slider prev" onclick="moveSlide(-1)">
+      &#10094;
+    </button>
+    <button class="button-slider next" onclick="moveSlide(1)">
+      &#10095;
+    </button>
+  </div>
+  <div class="root"></div>
+  <footer>
+    <div class="footer">
+      <div style="background-color: #191919;     padding: 30px;">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Contact Us</h3>
+            <p>Address: 60-49 Road 11378 New York</p>
+            <p>Phone: +65 11.188.888</p>
+            <p>Email: hello.colorlib@gmail.com</p>
+          </div>
+          <div class="col-md-4">
+            <h3>Information</h3>
+            <p>About Us</p>
+            <p>Checkout</p>
+            <p>Contact</p>
+          </div>
+          <div class="col-md-4">
+            <h3>My Account</h3>
+            <ul>
+              <li><a href="#">My Account</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Shopping Cart</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            Copyright ©2024 All rights reserved | This template is made with by
+            Colorlib
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
